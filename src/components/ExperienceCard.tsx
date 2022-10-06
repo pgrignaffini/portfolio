@@ -13,7 +13,7 @@ function ExperienceCard({ }: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
-                className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+                className='w-32 h-32 rounded-full object-cover object-center'
                 src="/me.jpg" />
             <div className='px-0 md:px-10'>
                 <h4 className='text-4xl font-light'>CEO of Society</h4>
