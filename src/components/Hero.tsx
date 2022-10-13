@@ -2,9 +2,8 @@ import Link from 'next/link';
 import React from 'react'
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import BackgroundCircles from './BackgroundCircles';
-type Props = {}
 
-function Hero({ }: Props) {
+function Hero() {
 
     const [text, count] = useTypewriter({
         words: ["Hi, my name is Paolo", "I love to BUIDL", "UI/UX Designer", "Full Stack Developer"],

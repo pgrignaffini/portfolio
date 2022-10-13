@@ -3,9 +3,7 @@ import { SocialIcon } from "react-social-icons"
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
-type Props = {}
-
-function Header({ }: Props) {
+function Header() {
     return (
         <header className='sticky top-0 flex p-5 items-start justify-between w-4/5 mx-auto z-20 xl:items-center'>
             <motion.div

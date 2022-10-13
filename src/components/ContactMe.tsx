@@ -2,8 +2,6 @@ import React from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid"
 import { SubmitHandler, useForm } from "react-hook-form"
 
-type Props = {}
-
 type Inputs = {
     name: string,
     email: string,
@@ -11,7 +9,7 @@ type Inputs = {
     subject: string
 }
 
-function ContactMe({ }: Props) {
+function ContactMe() {
 
     const { register, handleSubmit } = useForm<Inputs>()
     const onSubmit: SubmitHandler<Inputs> = (data) => {
@@ -24,7 +22,7 @@ function ContactMe({ }: Props) {
             <div className='flex flex-col space-y-10'>
                 <h4 className='text-4xl font-semibold text-center'>
                     I have got just what you need.{" "}
-                    <span className='underline decoration-[#F7AB0A]/50'>Let's talk</span>
+                    <span className='underline decoration-[#F7AB0A]/50'>Let&apos;s talk</span>
                 </h4>
                 <div className='space-y-10'>
                     <div className='flex items-center space-x-5 justify-center'>
