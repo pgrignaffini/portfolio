@@ -28,16 +28,12 @@ function ContactMe({ }: Props) {
                 </h4>
                 <div className='space-y-10'>
                     <div className='flex items-center space-x-5 justify-center'>
-                        <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                        <p>+123456789</p>
-                    </div>
-                    <div className='flex items-center space-x-5 justify-center'>
                         <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p>grignaffinipaolo@gmail.com</p>
                     </div>
                     <div className='flex items-center space-x-5 justify-center'>
                         <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                        <p>+123456789</p>
+                        <p>Parma, Italy</p>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>

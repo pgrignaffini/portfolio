@@ -14,19 +14,15 @@ function Header({ }: Props) {
                 transition={{ duration: 1 }}
                 className='flex flex-row items-center'>
                 <SocialIcon
-                    url="https://twitter.com/pulemaboe"
+                    url="https://www.linkedin.com/in/paologrignaffini/"
                     fgColor='gray'
                     bgColor='transparent' />
                 <SocialIcon
-                    url="https://twitter.com/pulemaboe"
+                    url="https://www.instagram.com/pgrignaffini"
                     fgColor='gray'
                     bgColor='transparent' />
                 <SocialIcon
-                    url="https://twitter.com/pulemaboe"
-                    fgColor='gray'
-                    bgColor='transparent' />
-                <SocialIcon
-                    url="https://twitter.com/pulemaboe"
+                    url="https://github.com/pgrignaffini"
                     fgColor='gray'
                     bgColor='transparent' />
             </motion.div>
