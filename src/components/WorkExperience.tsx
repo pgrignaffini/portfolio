@@ -51,8 +51,7 @@ function WorkExperience() {
             "Developed, implemented and deployed Web3 full-stack applications",
             "Greengo: decentralized crowdfunding made on Algorand",
             "PostThread: decentralized social media made on Polkadot",
-            "BazaarMarket: decentralized nft trading marketplace made on Polygon",
-            "UnstableLabs: Ai-generated NFTs made on Polygon",
+            "UnstableLabs: AI-generated NFTs made on Polygon",
             "For further details see CV",
           ]}
           skills={[
